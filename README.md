@@ -1,10 +1,10 @@
 # BL0940-AC-Energy-Monitoring-Using-Arduino
 AC power and energy monitoring device this IC used in most of the IoT application, calculate energy consumption in minimal form factor.
-Get the detailed tutorial from my Hackster Page
+Get the detailed tutorial from my [Hackster Page](https://www.hackster.io/electroboy001/bl0940-ac-energy-monitoring-using-arduino-6b2673).
 
 I have been working with energy metering ICs for a while now. After trying BL0937 which has a pretty straightforward control interface, today I finally got my hands on the BL0940. Both are similar, because they are single-phase energy metering IC but what surprise me the most is its feature set. Unlike the simpler BL0937 ICs in the BL series, the BL0940 gives you voltage, current, active power, energy accumulation, phase angle, power factor and temperature without the need of component calibration, and all data is accessible though UART or SPI.
 
-But for now this tutorial is focused on SPI communication mode. You just pull the SEL pin HIGH for SPI, and the IC switches its entire communication interface. I built a complete Arduino library around this IC with five ready-to-use examples. The total component cost is very low a 1 milliohm shunt resistor, a voltage divider network, and a few capacitors is all you need on the analog front end. This is a open source project you can access the design files through GITHUB, I have made a dedicated PCB from JLCPCB and tested it out with real time energy monitoring in my lab.
+But for now this tutorial is focused on SPI communication mode. You just pull the SEL pin HIGH for SPI, and the IC switches its entire communication interface. I built a complete Arduino library around this IC with five ready-to-use examples. The total component cost is very low a 1 milliohm shunt resistor, a voltage divider network, and a few capacitors is all you need on the analog front end. This is a open source project you can access the design files through GITHUB, I have made a dedicated PCB from [JLCPCB](https://jlcpcb.com/?from=audrey3) and tested it out with real time energy monitoring in my lab.
 
 **What Is BL0940?**
 
